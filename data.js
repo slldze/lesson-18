@@ -32,3 +32,10 @@ function makelowercase(text) {
   return text.toLowerCase();
 }
 console.log(makelowercase("MY NAME IS JANE"));
+
+function getnumbersgreaterthan100(numbers) {
+  return numbers.filter(function (number) {
+    return number > 100;
+  });
+}
+console.log(getnumbersgreaterthan100([50, 150, 200, 75, 300, 400, 500]));
