@@ -27,3 +27,8 @@ console.log(getcurencycountry("USD"));
 console.log(getcurencycountry("EUR"));
 console.log(getcurencycountry("GEL"));
 console.log(getcurencycountry("JPY"));
+
+function makelowercase(text) {
+  return text.toLowerCase();
+}
+console.log(makelowercase("MY NAME IS JANE"));
