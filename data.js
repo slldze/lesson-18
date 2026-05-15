@@ -684,3 +684,10 @@ function getcheapestproduct(products) {
   return cheapestProduct;
 }
 console.log(getcheapestproduct(data.products));
+
+function findobjectbyid(products, id) {
+  return products.find(function (product) {
+    return String(product.id) === id;
+  });
+}
+console.log(findobjectbyid(data.products, "9146"));
